@@ -10,6 +10,7 @@ class Comment extends Model
     //comment model
 
     use HasFactory;
+    // protected $fillable = ['articleId', 'comment', 'timestamp'];
     protected $fillable = ['articleId', 'comment', 'timestamp'];
 }
 
